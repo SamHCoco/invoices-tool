@@ -26,9 +26,9 @@ server:
 invoice:
   directory:
     company:
-      a:
-      b:
+      a: ${COMPANY_A_DIR}
+      b: ${COMPANY_B_DIR}
 
 company:
-  a:
-  b:
+  a: ${COMPANY_A}
+  b: ${COMPANY_B}
